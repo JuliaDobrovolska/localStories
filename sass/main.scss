@@ -1,0 +1,50 @@
+$green: #40E0D0;
+$border-radius: 0;
+.btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:visited {
+    background-color: $green !important;
+    border: 0;
+}
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.btn-search {
+  //  background-color:transparent;
+}
+.new-york-img {
+    width: 100%;    
+    filter: brightness(50%);
+    
+}
+.card-icon-container {
+    & svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    }
+    & a svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+.footer-list svg {
+    fill: #fff;
+    width: 30px;
+        height: 30px;
+}
+
+.navbar-list svg {
+    fill:#adb5bd;
+    width: 15px;
+    height: 10px;
+    display:block;
+}
+.search-button {
+    -webkit-appearance: none;
+    right: 30px;
+}
+iframe { 
+    filter: grayscale(100%);
+  }
